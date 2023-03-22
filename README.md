@@ -16,6 +16,21 @@ Esta aplicacion fue hecha con el framework para entender los ellementos basicos.
 For run this application you need install Git, Composer, xampp Server and MySQL.
 Para correr está aplicacion necesitas installar Git, Composer, xampp Server y MySQL
 
+## Comandos
+## Comands
+
+Los comandos están explicados justo debajo.
+The commands are explainied to continue.
+
+`php artisan --version` - Obtiene la version de artisan.
+`php artisan make:migration create_table_mytable` - Crea una migracion
+`php artisan make:migration create_table_users --create=users` - Crea una migracion asociada con otra tabla.
+`php artisan migrate:rollback` -  Deshace la ultima migracion
+`php artisan migrate:refresh` - Desahce las migraciones y las hace de nuevo.
+
+##Database
+##Base de datos
+
 La base de datos estará disponible en la carpeta 'databases' de la raiz.
 The database is available in a folder 'databases' in '/'
 
